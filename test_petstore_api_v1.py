@@ -1,6 +1,8 @@
 import requests
 import pytest
 
+print("hello Github")
+
 
 @pytest.fixture()
 def create_pet():  # функция предусловия
